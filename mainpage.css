@@ -1,0 +1,127 @@
+div {
+  display: inline;
+}
+.post {
+  top: 10%;
+  position: fixed;
+  left: 5%;
+  background-color: rgb(20, 20, 94);
+  width: auto;
+  /* margin:10px; */
+  padding: 10px;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  color: rgba(198, 156, 7, 0.873);
+}
+.heading {
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgba(198, 156, 7, 0.873);
+}
+input {
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+textarea {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+#sbtbtn {
+  display: block;
+  border: 1px solid rgb(155, 72, 0);
+  border-radius: 3px;
+  cursor: auto;
+  color: white;
+  background-color: rgb(155, 72, 0);
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+#sbtbtn:hover {
+  color: white;
+  background-color: rgb(225, 113, 16);
+}
+
+#newdiv {
+  position: absolute;
+  width: 700px;
+  top: 10%;
+  left: 40%;
+  margin: 10px;
+  padding: 10px;
+}
+#uList {
+  list-style-type: none;
+}
+
+.blogList {
+  position: relative;
+  background-color: black;
+  list-style-type: none;
+  color: white;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+#text.blogList {
+  font-style: italic;
+}
+button.plus {
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: 90%;
+  display: inline;
+  color: red;
+  font-weight: 1000;
+}
+.blogList1 {
+  position: relative;
+  background-color: black;
+  list-style-type: none;
+  color: white;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.commentsection {
+  white-space: nowrap;
+}
+p {
+  position: relative;
+  left: 8px;
+  width: 420px;
+  overflow-wrap: break-word; /* Break long words */
+}
+.cinput {
+  position: relative;
+  left: 2px;
+  display: inline-block;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+button.commentbtn {
+  position: relative;
+  background-color: rgb(251, 248, 248);
+  color: rgb(6, 5, 5);
+  left: 0px;
+  display: inline-block;
+  border: none;
+}
+
+li.comments {
+  border-bottom: 1px solid white;
+}
+button.delete-btn {
+  position: relative;
+  background-color: rgb(8, 8, 8);
+  color: red;
+  left: 0px;
+  display: block;
+  border: none;
+}
